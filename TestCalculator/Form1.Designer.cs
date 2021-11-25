@@ -37,6 +37,7 @@ namespace TestCalculator
             this.txtkq = new System.Windows.Forms.TextBox();
             this.txtb = new System.Windows.Forms.TextBox();
             this.btC = new System.Windows.Forms.Button();
+            this.btT = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -107,11 +108,22 @@ namespace TestCalculator
             this.btC.UseVisualStyleBackColor = true;
             this.btC.Click += new System.EventHandler(this.btC_Click);
             // 
+            // btT
+            // 
+            this.btT.Location = new System.Drawing.Point(270, 221);
+            this.btT.Name = "btT";
+            this.btT.Size = new System.Drawing.Size(75, 23);
+            this.btT.TabIndex = 8;
+            this.btT.Text = "-";
+            this.btT.UseVisualStyleBackColor = true;
+            this.btT.Click += new System.EventHandler(this.btT_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btT);
             this.Controls.Add(this.btC);
             this.Controls.Add(this.txtb);
             this.Controls.Add(this.txtkq);
@@ -137,6 +149,7 @@ namespace TestCalculator
         private System.Windows.Forms.TextBox txtkq;
         private System.Windows.Forms.TextBox txtb;
         private System.Windows.Forms.Button btC;
+        private System.Windows.Forms.Button btT;
     }
 }
 
