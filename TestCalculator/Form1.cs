@@ -27,5 +27,15 @@ namespace TestCalculator
 
 
         }
+
+        private void btT_Click(object sender, EventArgs e)
+        {
+            int a, b, kq;
+            a = int.Parse(txta.Text);
+            b = int.Parse(txtb.Text);
+            kq = a - b;
+            txtkq.Text = kq.ToString();
+
+        }
     }
 }
