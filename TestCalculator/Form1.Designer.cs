@@ -105,6 +105,7 @@ namespace TestCalculator
             this.btC.TabIndex = 7;
             this.btC.Text = "+";
             this.btC.UseVisualStyleBackColor = true;
+            this.btC.Click += new System.EventHandler(this.btC_Click);
             // 
             // Form1
             // 
